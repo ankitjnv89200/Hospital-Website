@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyHealth Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #30a119;
+            color: rgb(20, 18, 18);
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #171313;
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #dce5dc;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar a {
+            display: block;
+            color: #4CAF50;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .main-content {
+            width: 80%;
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: rgb(16, 14, 14);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MyHealth Dashboard</h1>
+    </header>
+    <nav>
+        <a href="./New folder/Booking form.html">Book Your Appointments </a>
+        <a href="#appointments">Appointments</a>
+        
+        <a href="./New folder/Settings.html">Settings</a>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <a href="./New folder/Profile.html">Profile</a>
+            <a href="./New folder/department.html">Department</a>
+            <a href="./New folder/Medical history.html">Medical History</a>
+        </div>
+        <section class="main-content">
+            <h2>Patient Information</h2>
+            <p><strong>Name:</strong>Sourav sah</p>
+            <p><strong>Date of Birth:</strong> January 12, 2003</p>
+            <p><strong>Contact:</strong>8797234527</p>
+            <p><strong>Emergency Contact:</strong> 987654321</p>
+            
+            <h2>Upcoming Appointments</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Doctor</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>2025-03-25</td>
+                    <td>Dr. Amith</td>
+                    <td>Check-Up</td>
+                </tr>
+                <tr>
+                    <td>2025-03-30</td>
+                    <td>Dr. Subham</td>
+                    <td>follow-up</td>
+                </tr>
+            </table>
+            
+            <h2>Medical History Summary</h2>
+            <details>
+                <summary>View Details</summary>
+                <ul>
+                    <li>Allergies: BP</li>
+                    <li>Conditions: Hypertension</li>
+                    <li>Medications: Aspirin</li>
+                    <li>Surgeries: Appendectomy (2015)</li>
+                </ul>
+            </details>
+        </section>
+    </div>
+    <footer>
+        <p><a href="./New folder/contact.html">Contact Us</a> | <a href="./New folder/Term of service.html">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
+
+</html>
